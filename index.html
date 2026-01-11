@@ -8,32 +8,31 @@
 <body>
 
   <header class="hero">
+    <div class="lang-switch">
+      <button onclick="setLanguage('es')">ES</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+
     <h1>Starfame Entertainment</h1>
     <p class="tagline">Creating Value for the Future</p>
   </header>
 
-  <section class="about">
-    <h2>About</h2>
-    <p>
-      Starfame Entertainment is a creative production house focused on podcasts,
-      music projects, emerging artists, and future audiovisual productions.
-    </p>
+  <section>
+    <h2 id="about-title"></h2>
+    <p id="about-text"></p>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Pedillos 3.0</strong> — Podcast</li>
-      <li>Music Project — Coming Soon</li>
-      <li>Emerging Artists — Coming Soon</li>
-      <li>GL / BL Series — Future Project</li>
-    </ul>
+  <section>
+    <h2 id="projects-title"></h2>
+    <ul id="projects-list"></ul>
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: starfame.ent@gmail.com</p>
+  <section>
+    <h2 id="contact-title"></h2>
+    <p id="contact-text"></p>
   </section>
 
+  <script src="script.js"></script>
 </body>
 </html>
+
